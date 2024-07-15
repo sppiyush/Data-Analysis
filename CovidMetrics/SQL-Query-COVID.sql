@@ -1,6 +1,6 @@
 Select * 
 FROM CovidMetrics..CovidDeaths
-where continent is not null  -- If we don't do this then then we will be getting the continent name in our location table 
+where continent is not null  -- If we don't do this then we will be getting the continent name in our location table 
 order by 3,4
 
 --Select * 
