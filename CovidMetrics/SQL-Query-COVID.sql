@@ -1,3 +1,7 @@
+/* Data Exploration using SQL Queries */
+
+------------------------------------------------------------------------------------------------------------------
+
 Select * 
 FROM CovidMetrics..CovidDeaths
 where continent is not null  -- If we don't do this then we will be getting the continent name in our location table 
